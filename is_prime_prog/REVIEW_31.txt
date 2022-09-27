@@ -1,0 +1,1 @@
+ode optimisé, la fonction pour créer la liste est superflue. Il suffit de parse directement stdin
