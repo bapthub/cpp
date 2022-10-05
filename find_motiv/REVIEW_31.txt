@@ -1,1 +1,0 @@
-Excellent code rien à dire, peut-être la fonction open() est de trop.

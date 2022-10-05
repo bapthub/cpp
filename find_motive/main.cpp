@@ -12,22 +12,17 @@ int main(int argc, char *argv[])
     string line;
     string word;
     
-    regex rgx(pattern);
     ifstream myfile(path);
 
     int word_count = 0;
 
     if (myfile.is_open())
     {
-        while (getline(myfile, line))
+        while (myfile >> word)
         {
-            stringstream ss(line);
-            while (ss >> word)
+            if (word.find(pattern) != std::string::npos)
             {
-                if (regex_search(word, rgx))
-                {
-                    ++word_count;
-                }
+                ++word_count;
             }
         }
         myfile.close();
