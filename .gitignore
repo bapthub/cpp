@@ -1,4 +1,6 @@
 find_motiv/build/*
 find_motiv/test.txt
 is_prime_prog/build/*
-
+cartesian_vector_param/build/*
+cartesian_vector_variable/build/*
+settings.json
