@@ -2,3 +2,4 @@ find_motiv/test.txt
 settings.json
 .vscode/*
 */build/*
+*.pdf
